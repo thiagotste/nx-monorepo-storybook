@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@thiago-alfabit/button": ["libs/button/src/index.ts"],
+      "@thiago-alfabit/input": ["libs/input /src/index.ts"],
       "@thiago-alfabit/storybook-host": ["libs/storybook-host/src/index.ts"]
     }
   },

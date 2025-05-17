@@ -1,0 +1,20 @@
+<div [class]="getContainerClasses()">
+  @if(label) {
+  <label class="label" [for]="id">{{ label }}</label>
+  } @if (!multiline) {
+  <input
+    [id]="id"
+    type="text"
+    [disabled]="disabled"
+    class="input"
+    placeholder="Text"
+  />
+  } @else {
+  <textarea
+    [id]="id"
+    class="input"
+    [disabled]="disabled"
+    placeholder="Text"
+  ></textarea>
+  }
+</div>

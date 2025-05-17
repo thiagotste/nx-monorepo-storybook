@@ -11,6 +11,9 @@ import { CommonModule } from '@angular/common';
 export class InputComponent {
   @Input() multiline = false;
   @Input() label = '';
+  /**
+   * Forneça um id único para cada descrição
+   */
   @Input() id = '';
   @Input() disabled = false;
 

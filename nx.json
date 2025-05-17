@@ -83,7 +83,7 @@
     }
   },
   "release": {
-    "projects": ["libs/button"]
+    "projects": ["libs/ui/*"]
   },
   "nxCloudAccessToken": "YWQ0N2RkNzItZDY3NS00NDE3LTlhNTgtN2I1YTEyMWZmOGQzfHJlYWQtd3JpdGU="
 }

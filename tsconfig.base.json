@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@thiago-alfabit/button": ["libs/button/src/index.ts"],
-      "@thiago-alfabit/input": ["libs/input /src/index.ts"],
+      "@thiago-alfabit/button": ["libs/ui/button/src/index.ts"],
+      "@thiago-alfabit/input": ["libs/ui/input/src/index.ts"],
       "@thiago-alfabit/storybook-host": ["libs/storybook-host/src/index.ts"]
     }
   },
